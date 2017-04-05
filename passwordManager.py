@@ -3,6 +3,7 @@ import shelve
 import pyperclip
 
 account = str(input("Enter the UserName: "))
+#creating the file where all the username and password are stored
 passwordFile = shelve.open(r"C:\password")
 
 def addAccount(na):
